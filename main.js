@@ -1,3 +1,5 @@
+import { inicializarCarrinho } from "./src/menu-carrinho"
+
 const catalogo = [
   {
     id: 1,
@@ -67,15 +69,24 @@ const catalogo = [
 
 for (const produtoCatalogo of catalogo ) {
     const cardProduto = `
-    <div id="card-produto-${produtoCatalogo.id}">
-    <img src="./assets/img/${produtoCatalogo.imagem}.jpg" alt="${produtoCatalogo.nome}" />
-    <p>${produtoCatalogo.marca}</p>
-    <p>${produtoCatalogo.nome}</p>
-    <p>$${produtoCatalogo.preco}</p>
-    <button>Adicionar</button>
+    <div 
+      class="border-solid border-2 border-sky-500 w-48 m-2"
+      id="card-produto-${produtoCatalogo.id}"
+    >
+      <img 
+        src="./assets/img/${produtoCatalogo.imagem}.jpg" 
+        alt="${produtoCatalogo.nome}"
+      />
+      <p 
+        class="marca"
+      >${produtoCatalogo.marca}</p>
+      <p>${produtoCatalogo.nome}</p>
+      <p>$${produtoCatalogo.preco}</p>
+      <button>Adicionar</button>
     </div>
     `
 
     document.getElementById("container-produto").innerHTML += cardProduto
 }
 
+inicializarCarrinho()
