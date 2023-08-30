@@ -2,6 +2,8 @@
 
 [![wakatime](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/b064695d-fa00-40ec-a1f8-ae0dbf72efdb.svg)](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/b064695d-fa00-40ec-a1f8-ae0dbf72efdb)
 
+[![GitHub Pages](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub+Pages&color=222222&logo=GitHub+Pages&logoColor=FFFFFF&label=)](https://brunodorea.github.io/intensivao_js-hashtag/)
+
 [![Vercel](https://img.shields.io/static/v1?style=for-the-badge&message=Vercel&color=000000&logo=Vercel&logoColor=FFFFFF&label=)](https://intensivao-js-hashtag.vercel.app/)
 
 ## 💼 Sobre o projeto
