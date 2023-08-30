@@ -74,7 +74,7 @@ for (const produtoCatalogo of catalogo ) {
       id="card-produto-${produtoCatalogo.id}"
     >
       <img 
-        src="./assets/img/${produtoCatalogo.imagem}" 
+        src="/assets/img/${produtoCatalogo.imagem}" 
         alt="${produtoCatalogo.nome}"
       />
       <p 
